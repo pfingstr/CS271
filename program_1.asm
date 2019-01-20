@@ -19,24 +19,24 @@ INCLUDE Irvine32.inc
 
 .data
 ;output data
-output_name						BYTE		"ROBERT PFINGSTEN ", 0   
+output_name					BYTE		"ROBERT PFINGSTEN ", 0   
 output_title					BYTE		"PROGRAM #1", 0
 output_instruction				BYTE		"PLEASE ENTER 2 NUMBERS AND WE WILL DO SOME MATH WITH THEM : ", 0
-output_num1						BYTE		"FIRST NUMBER : ", 0
-output_num2						BYTE		"SECOND NUMBER : ", 0
-output_exit						BYTE		"GOODBYE", 0															
+output_num1					BYTE		"FIRST NUMBER : ", 0
+output_num2					BYTE		"SECOND NUMBER : ", 0
+output_exit					BYTE		"GOODBYE", 0															
 output_equals					BYTE		" = ", 0
-output_sum						BYTE		" + ", 0
+output_sum					BYTE		" + ", 0
 output_difference				BYTE		" - ", 0
 output_product					BYTE		" * ", 0
 output_quotient					BYTE		" / ", 0
 output_remainder				BYTE		" REMAINDER", 0
 output_error					BYTE		"ERROR", 0
 ;input data
-input_num1						DWORD		?
-input_num2						DWORD		?
+input_num1					DWORD		?
+input_num2					DWORD		?
 ;calculated values
-calc_sum						DWORD		?
+calc_sum					DWORD		?
 calc_difference					DWORD		?
 calc_product					DWORD		?
 calc_quotient					DWORD		?
