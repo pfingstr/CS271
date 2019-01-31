@@ -12,7 +12,7 @@ TITLE Program 2     (program_2.asm)
 ;	4) Keeping track of a previous value
 ;	5) Implementing data validation
 ;				REQUIREMENTS	
-;	1) The programmer’s name and the user’s name must appear in the output.
+;	1) The programmerâ€™s name and the userâ€™s name must appear in the output.
 ;	2) The loop that implements data validation must be implemented as a post-test loop.
 ;	3) The loop that calculates the Fibonacci terms must be implemented using the MASM loop instruction.
 ;	4) The main procedure must be modularized into at least the following sections (procedures are not required
@@ -38,7 +38,7 @@ output_title					BYTE		"PROGRAM #2", 0
 output_greeting					BYTE		"HELLO ", 0
 output_instruction				BYTE		"PLEASE ENTER AN INTEGER [1..46] AND I WILL DISPLAY THAT NUMBER OF FIBONACCI TERMS: ", 0
 output_what_name				BYTE		"WHAT IS YOUR NAME?: ", 0
-output_exit						BYTE		"GOODBYE", 0															
+output_exit					BYTE		"GOODBYE", 0															
 output_error_low				BYTE		"ERROR! - THE NUMBER ENTERED IS TOO LOW ", 0
 output_error_high				BYTE		"ERROR! - THE NUMBER ENTERED IS TOO HIGH ", 0
 output_space					BYTE		" ", 0
@@ -55,8 +55,8 @@ input_fib_num					DWORD		?
 input_user_name					BYTE MAX+1 DUP (?) 
 
 ;initalized values
-n_minus_1						DWORD		?
-n_minus_2						DWORD		?
+n_minus_1					DWORD		?
+n_minus_2					DWORD		?
 
 
 
